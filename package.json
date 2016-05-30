@@ -1,0 +1,26 @@
+{
+  "name": "izarra",
+  "version": "1.0.0",
+  "description": "typescript \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Celectron on typescript.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TE-ToshiakiTanaka/izarra.git"
+  },
+  "author": "Toshiaki.Tanaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TE-ToshiakiTanaka/izarra/issues"
+  },
+  "homepage": "https://github.com/TE-ToshiakiTanaka/izarra#readme",
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}
