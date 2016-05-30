@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/TE-ToshiakiTanaka/izarra#readme",
   "devDependencies": {
+    "del": "^2.2.0",
+    "electron-packager": "^7.0.2",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.5",
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
   },
