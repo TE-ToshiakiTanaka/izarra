@@ -37,7 +37,7 @@ gulp.task('package:win32:izarra', ["setup:izarra"], function (done) {
     packager({
         dir: 'build',
         out: 'release/win32',
-        name: 'Iwaf',
+        name: 'izarra',
         arch: 'ia32',
         platform: 'win32',
         version: '0.37.8'
@@ -47,4 +47,5 @@ gulp.task('package:win32:izarra', ["setup:izarra"], function (done) {
 });
 
 gulp.task("setup:izarra", ["build:izarra", "copy:izarra"]);
-gulp.task("default", ["clean:izarra", "setup:izarra", "package:win32:izarra"]);
+gulp.task("build", ["clean:izarra", "setup:izarra"]);
+gulp.task("default", ["build", "package:win32:izarra"]);

@@ -31,15 +31,14 @@ class Izarra {
 
     onWindowAllClosed() {
         if(process.platform != 'darwin') {
-            console.log("onWindowAllClosed");
             this.app.quit();
         }
     }
 
     onReady() {
         this.mainWindow = new BrowserWindow({
-            width: 1600,
-            height: 800,
+            width: 816,
+            height: 538,
             frame: true,
             transparent: false,
             resizable: false,
